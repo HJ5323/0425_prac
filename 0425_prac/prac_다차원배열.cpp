@@ -2,6 +2,10 @@
 
 using namespace std;
 
+// 1. 
+// 2. 사용자에서 나이를 입력 받기
+// 3. 해당 나이에 해당하는 모든 이름과 수학 점수를 출력하기
+
 void main()
 {
 
@@ -15,6 +19,8 @@ void main()
 	};
 
 	string age;
+
+	cout << "나이를 입력해 주세요. : ";
 	cin >> age;
 	cout << "\n";
 
