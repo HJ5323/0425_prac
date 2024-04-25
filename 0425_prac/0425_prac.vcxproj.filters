@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="example_다차원배.cpp">
+    <ClCompile Include="example_multidimentional array.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="prac_다차원배열.cpp">
+    <ClCompile Include="prac_multidimentional array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example_pointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prac_pointer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

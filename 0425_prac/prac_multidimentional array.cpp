@@ -6,6 +6,11 @@ using namespace std;
 // 2. 사용자에서 나이를 입력 받기
 // 3. 해당 나이에 해당하는 모든 이름과 수학 점수를 출력하기
 
+
+// int col = sizeof(phy[0]) / sizeof(pyo[0][0]); 4/1
+// int row = sizeof(pyo) / sizeof(pyo[0]); 5/4
+
+
 void main()
 {
 
