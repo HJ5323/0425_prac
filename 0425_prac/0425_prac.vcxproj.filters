@@ -27,5 +27,8 @@
     <ClCompile Include="prac_pointer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="prac_동적배열.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
