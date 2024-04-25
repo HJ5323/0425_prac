@@ -30,7 +30,7 @@ int main()
 
     int size = sizeof(x) / sizeof(x[0]);
 
-    cout << "x_origin: ";
+    cout << "x_original: ";
 
     for (int i = 0; i < size; i++)
     {
