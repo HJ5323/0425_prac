@@ -2,16 +2,16 @@
 
 using namespace std;
 
-// 1. ¸î¸íÀÇ ÇĞ»ı ¼ºÀû Æò±ÕÀ» ±¸ÇÒÁö ÀÔ·Â ¹Ş±â
-// 2. ÀÔ·Â¹ŞÀº ÇĞ»ı ¼ö ¸¸Å­ ¼ºÀûÀ» ÀÔ·Â¹Ş±â
-// 3. ÇĞ»ıµéÀÇ ¼ºÀû Æò±Õ »êÃâÇÏ±â
+// 1. ëª‡ëª…ì˜ í•™ìƒ ì„±ì  í‰ê· ì„ êµ¬í• ì§€ ì…ë ¥ ë°›ê¸°
+// 2. ì…ë ¥ë°›ì€ í•™ìƒ ìˆ˜ ë§Œí¼ ì„±ì ì„ ì…ë ¥ë°›ê¸°
+// 3. í•™ìƒë“¤ì˜ ì„±ì  í‰ê·  ì‚°ì¶œí•˜ê¸°
 
 int main()
 {
 	int student_number;
 	float score, score_sum = 0;
 
-	cout << "ÇĞ»ıÀÇ ¼ö¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä.: ";
+	cout << "í•™ìƒì˜ ìˆ˜ë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš”.: ";
 	cin >> student_number;
 
 	int* score_array = new int[student_number];
@@ -21,18 +21,18 @@ int main()
 	{
 		score_array[i] = i + 1;
 
-		cout << i + 1 << " ¹ø ÇĞ»ıÀÇ ¼ºÀûÀ» ÀÔ·ÂÇÏ¼¼¿ä: ";
+		cout << i + 1 << " ë²ˆ í•™ìƒì˜ ì„±ì ì„ ì…ë ¥í•˜ì„¸ìš”: ";
 		cin >> score;
 		cout << "\n" << endl;
 
-		score_sum += score;
+		score_sum += score; // score_sum = score_sum + scoreë‘ ê°™ìŒ
 
 
 	}
 
 	delete[] score_array;
 
-	cout << "Æò±Õ : " << score_sum / student_number << endl;
+	cout << "í‰ê·  : " << score_sum / student_number << endl;
 
 	return 0;
 
